@@ -235,19 +235,19 @@ Router# show ip dhcp binding
 
 <img width="720" height="263" alt="image" src="https://github.com/user-attachments/assets/a91bc9c2-e5af-4fad-897e-16f73c3fd505" />  
 
-<img width="975" height="307" alt="image" src="https://github.com/user-attachments/assets/bd75ac64-5efa-4c6e-b0cf-67c41b770eb1" />  
+<img width="975" height="307" alt="image" src="https://github.com/user-attachments/assets/bd75ac64-5efa-4c6e-b0cf-67c41b770eb1" /> <br>
 
 
 Se aprecian los bindings falsos con MACs aleatorias.  
 
 
-<img width="889" height="530" alt="image" src="https://github.com/user-attachments/assets/3205af45-2d16-4eed-b7c1-ee2dc2424a94" />  
+<img width="889" height="530" alt="image" src="https://github.com/user-attachments/assets/3205af45-2d16-4eed-b7c1-ee2dc2424a94" /> <br>
 
 
 El Pool de la VLAN 20 se ha agotado, ya que se han entregado todas las direcciones IP.
 
 
-<img width="338" height="113" alt="image" src="https://github.com/user-attachments/assets/9c46eb14-be92-4177-aabf-b8c35d48fbcd" />  
+<img width="338" height="113" alt="image" src="https://github.com/user-attachments/assets/9c46eb14-be92-4177-aabf-b8c35d48fbcd" /><br>
 
 
 Se aprecia que la PC víctima se ha quedado sin IP, porque no encuentra el servidor DHCP, y esto pasa porque el servidor está saturado por todos los bindings continuos que el ataque envía.
