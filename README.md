@@ -14,7 +14,9 @@ Demostrar vulnerabilidades DHCP llevando a cabo lo siguiente:
 
 ## Topología
 
+
 <img width="673" height="609" alt="image" src="https://github.com/user-attachments/assets/ce61e4f5-3eb4-487e-a83b-ed567a9d1b30" />
+
 
 ## Configuración dispositivos principales
 
@@ -222,23 +224,31 @@ Router# show ip dhcp binding
 
 ### Antes del Ataque
 
+
 <img width="975" height="127" alt="image" src="https://github.com/user-attachments/assets/bfd40c30-2128-4c0c-9f9e-94129efda131" />
+
 <img width="807" height="496" alt="image" src="https://github.com/user-attachments/assets/8b2f0a75-a82d-4ea4-8366-68b5867ae2fc" />
 
 
 ### Durante el Ataque
 
+
 <img width="720" height="263" alt="image" src="https://github.com/user-attachments/assets/a91bc9c2-e5af-4fad-897e-16f73c3fd505" />
+
 <img width="975" height="307" alt="image" src="https://github.com/user-attachments/assets/bd75ac64-5efa-4c6e-b0cf-67c41b770eb1" />
 
 
 Se aprecian los bindings falsos con MACs aleatorias.
 
+
 <img width="889" height="530" alt="image" src="https://github.com/user-attachments/assets/3205af45-2d16-4eed-b7c1-ee2dc2424a94" />
+
 
 El Pool de la VLAN 20 se ha agotado, ya que se han entregado todas las direcciones IP.
 
+
 <img width="338" height="113" alt="image" src="https://github.com/user-attachments/assets/9c46eb14-be92-4177-aabf-b8c35d48fbcd" />
+
 
 Se aprecia que la PC víctima se ha quedado sin IP, porque no encuentra el servidor DHCP, y esto pasa porque el servidor está saturado por todos los bindings continuos que el ataque envía.
 
